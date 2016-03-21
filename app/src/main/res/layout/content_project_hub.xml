@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gray_45_gradient"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="st.blomqui.chad.androidportfolio.ProjectHubActivity"
+    tools:showIn="@layout/activity_project_hub">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/portfolio_button_marginTop"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button android:id="@+id/spotifyButton"
+            android:background="@drawable/blue_0_gradient"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/toolbar"
+            android:text="@string/spotifyApp"
+            android:onClick="launchToast"/>
+
+        <Button android:id="@+id/scoresButton"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/spotifyButton"
+            android:background="@drawable/blue_0_gradient"
+            android:text="@string/scoresApp"
+            android:onClick="launchToast"/>
+
+        <Button android:id="@+id/libraryButton"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/scoresButton"
+            android:background="@drawable/blue_0_gradient"
+            android:text="@string/libraryApp"
+            android:onClick="launchToast"/>
+
+        <Button android:id="@+id/builditButton"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/libraryButton"
+            android:background="@drawable/blue_0_gradient"
+            android:text="@string/builditApp"
+            android:onClick="launchToast"/>
+
+        <Button android:id="@+id/xyzButton"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/builditButton"
+            android:background="@drawable/blue_0_gradient"
+            android:text="@string/xyzApp"
+            android:onClick="launchToast"/>
+
+        <Button android:id="@+id/capstoneButton"
+            android:layout_width="@dimen/portfolio_button_width"
+            android:layout_height="@dimen/portfolio_button_height"
+            android:layout_marginTop="@dimen/portfolio_button_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/xyzButton"
+            android:background="@drawable/blue_0_gradient"
+            android:text="@string/capstoneApp"
+            android:onClick="launchToast"/>
+    </LinearLayout>
+</RelativeLayout>

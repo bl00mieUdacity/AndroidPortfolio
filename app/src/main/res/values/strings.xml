@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android App Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="spotifyApp">Spotify Streamer</string>
+    <string name="scoresApp">Scores App</string>
+    <string name="libraryApp">Library App</string>
+    <string name="builditApp">Build it Bigger</string>
+    <string name="xyzApp">XYZ Reader</string>
+    <string name="capstoneApp">Capstone: TBD</string>
+
+    <string name="launchToastTemplate">This button will launch my #appName# app!</string>
+    <string name="spotifyAppName">SpotifyStreamer</string>
+    <string name="scoresAppName">FootballScores</string>
+    <string name="libraryAppName">Library</string>
+    <string name="builditAppName">BuilditBigger</string>
+    <string name="xyzAppName">XyzReader</string>
+    <string name="capstoneAppName">CapstoneTBD</string>
+
+</resources>
