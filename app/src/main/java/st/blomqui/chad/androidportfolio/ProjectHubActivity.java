@@ -28,7 +28,7 @@ public class ProjectHubActivity extends AppCompatActivity {
                         return false;
                     }
                     if (item.getItemId() == R.id.projecthubSettings) {
-                        shortToast("clicked " + item.getTitle());
+                        shortToast("Clicked " + item.getTitle());
                     }
                     return true;
                 }
